@@ -45,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044BB52822B7F39000BF9C40 /* Super Indie Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Indie Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044BB52822B7F39000BF9C40 /* Cowboy Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowboy Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044BB52B22B7F39000BF9C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044BB53122B7F39000BF9C40 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		044BB53322B7F39000BF9C40 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 		044BB53822B7F39100BF9C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044BB53B22B7F39100BF9C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044BB53D22B7F39100BF9C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044BB54222B7F39100BF9C40 /* Super Indie RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super Indie RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044BB54222B7F39100BF9C40 /* Cowboy RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044BB54622B7F39100BF9C40 /* Super_Indie_RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Indie_RunnerTests.swift; sourceTree = "<group>"; };
 		044BB54822B7F39100BF9C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044BB54D22B7F39100BF9C40 /* Super Indie RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super Indie RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044BB54D22B7F39100BF9C40 /* Cowboy RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044BB55122B7F39100BF9C40 /* Super_Indie_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Indie_RunnerUITests.swift; sourceTree = "<group>"; };
 		044BB55322B7F39100BF9C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044BB56522B7FB8E00BF9C40 /* Level_0-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level_0-1.sks"; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		044BB51F22B7F39000BF9C40 = {
 			isa = PBXGroup;
 			children = (
-				044BB52A22B7F39000BF9C40 /* Super Indie Runner */,
-				044BB54522B7F39100BF9C40 /* Super Indie RunnerTests */,
-				044BB55022B7F39100BF9C40 /* Super Indie RunnerUITests */,
+				044BB52A22B7F39000BF9C40 /* Cowboy Runner */,
+				044BB54522B7F39100BF9C40 /* Cowboy RunnerTests */,
+				044BB55022B7F39100BF9C40 /* Cowboy RunnerUITests */,
 				044BB52922B7F39000BF9C40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,14 +109,14 @@
 		044BB52922B7F39000BF9C40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				044BB52822B7F39000BF9C40 /* Super Indie Runner.app */,
-				044BB54222B7F39100BF9C40 /* Super Indie RunnerTests.xctest */,
-				044BB54D22B7F39100BF9C40 /* Super Indie RunnerUITests.xctest */,
+				044BB52822B7F39000BF9C40 /* Cowboy Runner.app */,
+				044BB54222B7F39100BF9C40 /* Cowboy RunnerTests.xctest */,
+				044BB54D22B7F39100BF9C40 /* Cowboy RunnerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		044BB52A22B7F39000BF9C40 /* Super Indie Runner */ = {
+		044BB52A22B7F39000BF9C40 /* Cowboy Runner */ = {
 			isa = PBXGroup;
 			children = (
 				044BB57722B8456500BF9C40 /* Helper Files */,
@@ -131,25 +131,25 @@
 				044BB56022B7F5E200BF9C40 /* UI */,
 				044BB56122B7F5FF00BF9C40 /* Controller */,
 			);
-			path = "Super Indie Runner";
+			path = "Cowboy Runner";
 			sourceTree = "<group>";
 		};
-		044BB54522B7F39100BF9C40 /* Super Indie RunnerTests */ = {
+		044BB54522B7F39100BF9C40 /* Cowboy RunnerTests */ = {
 			isa = PBXGroup;
 			children = (
 				044BB54622B7F39100BF9C40 /* Super_Indie_RunnerTests.swift */,
 				044BB54822B7F39100BF9C40 /* Info.plist */,
 			);
-			path = "Super Indie RunnerTests";
+			path = "Cowboy RunnerTests";
 			sourceTree = "<group>";
 		};
-		044BB55022B7F39100BF9C40 /* Super Indie RunnerUITests */ = {
+		044BB55022B7F39100BF9C40 /* Cowboy RunnerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				044BB55122B7F39100BF9C40 /* Super_Indie_RunnerUITests.swift */,
 				044BB55322B7F39100BF9C40 /* Info.plist */,
 			);
-			path = "Super Indie RunnerUITests";
+			path = "Cowboy RunnerUITests";
 			sourceTree = "<group>";
 		};
 		044BB55F22B7F5B200BF9C40 /* Template */ = {
@@ -249,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		044BB52722B7F39000BF9C40 /* Super Indie Runner */ = {
+		044BB52722B7F39000BF9C40 /* Cowboy Runner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044BB55622B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Super Indie Runner" */;
+			buildConfigurationList = 044BB55622B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Cowboy Runner" */;
 			buildPhases = (
 				044BB52422B7F39000BF9C40 /* Sources */,
 				044BB52522B7F39000BF9C40 /* Frameworks */,
@@ -261,14 +261,14 @@
 			);
 			dependencies = (
 			);
-			name = "Super Indie Runner";
+			name = "Cowboy Runner";
 			productName = "Super Indie Runner";
-			productReference = 044BB52822B7F39000BF9C40 /* Super Indie Runner.app */;
+			productReference = 044BB52822B7F39000BF9C40 /* Cowboy Runner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		044BB54122B7F39100BF9C40 /* Super Indie RunnerTests */ = {
+		044BB54122B7F39100BF9C40 /* Cowboy RunnerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044BB55922B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Super Indie RunnerTests" */;
+			buildConfigurationList = 044BB55922B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */;
 			buildPhases = (
 				044BB53E22B7F39100BF9C40 /* Sources */,
 				044BB53F22B7F39100BF9C40 /* Frameworks */,
@@ -279,14 +279,14 @@
 			dependencies = (
 				044BB54422B7F39100BF9C40 /* PBXTargetDependency */,
 			);
-			name = "Super Indie RunnerTests";
+			name = "Cowboy RunnerTests";
 			productName = "Super Indie RunnerTests";
-			productReference = 044BB54222B7F39100BF9C40 /* Super Indie RunnerTests.xctest */;
+			productReference = 044BB54222B7F39100BF9C40 /* Cowboy RunnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		044BB54C22B7F39100BF9C40 /* Super Indie RunnerUITests */ = {
+		044BB54C22B7F39100BF9C40 /* Cowboy RunnerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044BB55C22B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Super Indie RunnerUITests" */;
+			buildConfigurationList = 044BB55C22B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */;
 			buildPhases = (
 				044BB54922B7F39100BF9C40 /* Sources */,
 				044BB54A22B7F39100BF9C40 /* Frameworks */,
@@ -297,9 +297,9 @@
 			dependencies = (
 				044BB54F22B7F39100BF9C40 /* PBXTargetDependency */,
 			);
-			name = "Super Indie RunnerUITests";
+			name = "Cowboy RunnerUITests";
 			productName = "Super Indie RunnerUITests";
-			productReference = 044BB54D22B7F39100BF9C40 /* Super Indie RunnerUITests.xctest */;
+			productReference = 044BB54D22B7F39100BF9C40 /* Cowboy RunnerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +325,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 044BB52322B7F39000BF9C40 /* Build configuration list for PBXProject "Super Indie Runner" */;
+			buildConfigurationList = 044BB52322B7F39000BF9C40 /* Build configuration list for PBXProject "Cowboy Runner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -338,9 +338,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				044BB52722B7F39000BF9C40 /* Super Indie Runner */,
-				044BB54122B7F39100BF9C40 /* Super Indie RunnerTests */,
-				044BB54C22B7F39100BF9C40 /* Super Indie RunnerUITests */,
+				044BB52722B7F39000BF9C40 /* Cowboy Runner */,
+				044BB54122B7F39100BF9C40 /* Cowboy RunnerTests */,
+				044BB54C22B7F39100BF9C40 /* Cowboy RunnerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -414,12 +414,12 @@
 /* Begin PBXTargetDependency section */
 		044BB54422B7F39100BF9C40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 044BB52722B7F39000BF9C40 /* Super Indie Runner */;
+			target = 044BB52722B7F39000BF9C40 /* Cowboy Runner */;
 			targetProxy = 044BB54322B7F39100BF9C40 /* PBXContainerItemProxy */;
 		};
 		044BB54F22B7F39100BF9C40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 044BB52722B7F39000BF9C40 /* Super Indie Runner */;
+			target = 044BB52722B7F39000BF9C40 /* Cowboy Runner */;
 			targetProxy = 044BB54E22B7F39100BF9C40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -564,7 +564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5K2L9B7JW3;
-				INFOPLIST_FILE = "Super Indie Runner/Template/Info.plist";
+				INFOPLIST_FILE = "Cowboy Runner/Template/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,7 +582,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5K2L9B7JW3;
-				INFOPLIST_FILE = "Super Indie Runner/Template/Info.plist";
+				INFOPLIST_FILE = "Cowboy Runner/Template/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,7 +611,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Indie Runner.app/Super Indie Runner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowboy Runner.app/Cowboy Runner";
 			};
 			name = Debug;
 		};
@@ -632,7 +632,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Indie Runner.app/Super Indie Runner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowboy Runner.app/Cowboy Runner";
 			};
 			name = Release;
 		};
@@ -679,7 +679,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		044BB52322B7F39000BF9C40 /* Build configuration list for PBXProject "Super Indie Runner" */ = {
+		044BB52322B7F39000BF9C40 /* Build configuration list for PBXProject "Cowboy Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044BB55422B7F39100BF9C40 /* Debug */,
@@ -688,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044BB55622B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Super Indie Runner" */ = {
+		044BB55622B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Cowboy Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044BB55722B7F39100BF9C40 /* Debug */,
@@ -697,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044BB55922B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Super Indie RunnerTests" */ = {
+		044BB55922B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044BB55A22B7F39100BF9C40 /* Debug */,
@@ -706,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044BB55C22B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Super Indie RunnerUITests" */ = {
+		044BB55C22B7F39100BF9C40 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044BB55D22B7F39100BF9C40 /* Debug */,

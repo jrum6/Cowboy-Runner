@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Super Indie Runner.xcodeproj">
+      location = "self:/Users/Jack/Xcode/Super Indie Runner/Cowboy Runner.xcodeproj">
    </FileRef>
 </Workspace>
