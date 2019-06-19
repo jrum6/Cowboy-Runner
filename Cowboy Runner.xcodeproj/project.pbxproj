@@ -25,6 +25,7 @@
 		044BB57922B8458B00BF9C40 /* PhysicsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BB57822B8458B00BF9C40 /* PhysicsHelper.swift */; };
 		044BB57B22B84FD200BF9C40 /* GroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BB57A22B84FD200BF9C40 /* GroundNode.swift */; };
 		044BB57D22B855A500BF9C40 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BB57C22B855A500BF9C40 /* AnimationHelper.swift */; };
+		04A1243822B9510400244883 /* ObjectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1243722B9510400244883 /* ObjectHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		044BB57822B8458B00BF9C40 /* PhysicsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsHelper.swift; sourceTree = "<group>"; };
 		044BB57A22B84FD200BF9C40 /* GroundNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundNode.swift; sourceTree = "<group>"; };
 		044BB57C22B855A500BF9C40 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		04A1243722B9510400244883 /* ObjectHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 			children = (
 				044BB57822B8458B00BF9C40 /* PhysicsHelper.swift */,
 				044BB57C22B855A500BF9C40 /* AnimationHelper.swift */,
+				04A1243722B9510400244883 /* ObjectHelper.swift */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				044BB53222B7F39000BF9C40 /* GameScene.swift in Sources */,
 				044BB56C22B80A2F00BF9C40 /* SKNode+Extensions.swift in Sources */,
 				044BB56F22B8163B00BF9C40 /* Layer.swift in Sources */,
+				04A1243822B9510400244883 /* ObjectHelper.swift in Sources */,
 				044BB53422B7F39000BF9C40 /* GameViewController.swift in Sources */,
 				044BB57622B8412E00BF9C40 /* Player.swift in Sources */,
 				044BB57D22B855A500BF9C40 /* AnimationHelper.swift in Sources */,

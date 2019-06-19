@@ -1,6 +1,6 @@
 //
 //  PhysicsHelper.swift
-//  Super Indie Runner
+//  Cowboy Runner
 //
 //  Created by Jack Margerum on 6/17/19.
 //  Copyright © 2019 Jack Margerum. All rights reserved.
@@ -21,8 +21,19 @@ class PhysicsHelper {
             sprite.physicsBody!.categoryBitMask = GameConstants.PhysicsCategories.playerCategory
             sprite.physicsBody!.collisionBitMask = GameConstants.PhysicsCategories.groundCategory | GameConstants.PhysicsCategories.finishCategory
             sprite.physicsBody!.contactTestBitMask = GameConstants.PhysicsCategories.allCategory
+        case GameConstants.StringConstants.finishLineName :
+            sprite.physicsBody = SKPhysicsBody(rectangleOf: sprite.size)
+            sprite.physicsBody!.categoryBitMask = GameConstants.PhysicsCategories.finishCategory
+        case GameConstants.StringConstants.enemyName:
+            sprite.physicsBody = SKPhysicsBody(rectangleOf: sprite.size)
+            sprite.physicsBody!.categoryBitMask = GameConstants.PhysicsCategories.enemyCategory
         default:
             sprite.physicsBody = SKPhysicsBody(rectangleOf: sprite.size)
+        }
+        
+        if name != GameConstants.StringConstants.playerName {
+            sprite.physicsBody!.contactTestBitMask = GameConstants.PhysicsCategories.playerCategory
+            sprite.physicsBody!.isDynamic = false
         }
     }
     

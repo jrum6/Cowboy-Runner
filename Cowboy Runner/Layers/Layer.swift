@@ -1,6 +1,6 @@
 //
 //  Layer.swift
-//  Super Indie Runner
+//  Cowboy Runner
 //
 //  Created by Jack Margerum on 6/17/19.
 //  Copyright © 2019 Jack Margerum. All rights reserved.
@@ -20,7 +20,7 @@ public func += (left: inout CGPoint, right: CGPoint){
     left = left + right
 }
 
-//slide 26
+/*The SKNode class doesn’t draw any visual content. Its primary role is to provide baseline behavior that the other node classes use. All visual elements in a SpriteKit-based game are drawn using predefined SKNode subclasses.*/
 class Layer: SKNode {
     
     var layerVelocity = CGPoint.zero

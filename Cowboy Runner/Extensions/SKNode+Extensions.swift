@@ -1,6 +1,6 @@
 //
 //  SKNode+Extensions.swift
-//  Super Indie Runner
+//  Cowboy Runner
 //
 //  Created by Jack Margerum on 6/17/19.
 //  Copyright © 2019 Jack Margerum. All rights reserved.
