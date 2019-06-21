@@ -11,8 +11,9 @@ import SpriteKit
 class PhysicsHelper {
     static func addPhysicsBody(to sprite: SKSpriteNode, with name: String) {
         switch name {
+            //makes physics body for player
         case GameConstants.StringConstants.playerName:
-            //initialize physics body
+            //initializes physics body
             sprite.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: sprite.size.width/2, height: sprite.size.height))
             //no bounce
             sprite.physicsBody!.restitution = 0.0
@@ -41,6 +42,7 @@ class PhysicsHelper {
         let tileSize = tileMap.tileSize
         
         for row in 0..<tileMap.numberOfRows {
+            //turns ground tiles into physics bodies
             var tiles = [Int]()
             for col in 0..<tileMap.numberOfColumns {
                 let tileDefinition = tileMap.tileDefinition(atColumn: col, row: row)
@@ -51,12 +53,14 @@ class PhysicsHelper {
                     tiles.append(0)
                 }
             }
+            //turns platforms into physics bodies
             if tiles.contains(1) {
                 var platform = [Int]()
                 for (index, tile) in tiles.enumerated() {
                     if tile == 1 && index < (tileMap.numberOfColumns - 1) {
                         platform.append(index)
                     } else if !platform.isEmpty {
+                        //print(platform)
                         let x = CGFloat(platform[0]) * tileSize.width
                         let y = CGFloat(row) * tileSize.height
                         let tileNode = GroundNode(with: CGSize(width: tileSize.width * CGFloat(platform.count), height: tileSize.height))

@@ -121,7 +121,11 @@ class GameScene: SKScene {
         let up = SKAction.moveBy(x: 0.0, y: frame.size.height/4, duration: 0.4)
         up.timingMode = .easeOut
         
+        //let doubleUp = SKAction.moveBy(x: 0.0, y: frame.size.height/8, duration: 0.4)
+        //doubleUp.timingMode = .easeOut
+        
         player.createUserData(entry: up, forKey: GameConstants.StringConstants.jumpUpActionKey)
+        //player.createUserData(entry: doubleUp, forKey: GameConstants.StringConstants.jumpUpActionKey)
         
         let move = SKAction.moveBy(x: 0.0, y: player.size.height, duration: 0.4)
         let jump = SKAction.animate(with: player.jumpFrames, timePerFrame: 0.4/Double(player.jumpFrames.count))
@@ -137,6 +141,7 @@ class GameScene: SKScene {
         player.run(player.userData?.value(forKey: GameConstants.StringConstants.jumpUpActionKey) as! SKAction) {
             //self.player.turnGravity(on: true)
             if self.touch {
+                //double jump
                 self.player.run(self.player.userData?.value(forKey: GameConstants.StringConstants.jumpUpActionKey) as! SKAction, completion: {
                     self.player.turnGravity(on: true)
                 })
@@ -267,7 +272,7 @@ extension GameScene: SKPhysicsContactDelegate{
         
         switch contactMask {
         case GameConstants.PhysicsCategories.playerCategory | GameConstants.PhysicsCategories.groundCategory:
-            player.airborne = false
+            player.airborne = true
         default:
             break
         }
